@@ -1,0 +1,158 @@
+
+#header{
+    background-color:rgb(236, 176, 9);
+
+}   
+.jcblogo{
+    position:absolute;
+    left:1%;
+   
+}
+#find_location{
+    border: black;
+    background-color: aliceblue;
+    color:black;
+    width:60px;
+    
+
+}
+.logo{
+    position:absolute;
+    right:3%;
+    top:10%;
+    
+}
+.header{
+    color:aliceblue;
+}
+#jcb_phone{font-weight: 30px;
+    margin-left:15px
+    
+}
+#enroll{
+    background-color: rgb(255, 204, 0);
+}
+#footer{
+    background-color:rgb(236, 176, 9);
+}
+#footer2{
+    background-color:rgba(0, 0, 0, 0.932);
+}
+
+.div3{
+    display: flex;
+   position:absolute;
+    top:64px;
+    height:50px;
+    width:100%;
+    border: black;
+    background-color: rgba(12, 12, 12, 0.89);
+    color:aliceblue;
+
+
+
+}
+.div3 li{
+    font-family:system-ui; 
+    margin-top: 10px;
+    list-style: none;
+    margin-left:20px ;
+}
+.MCMlogo{
+    position:absolute;
+    top:2px;
+    right:15px;
+    height:4rem;
+    width:5rem;
+
+}
+#vdo{
+    height:30rem;
+    margin-bottom: 20px;
+}
+#navbar{
+    margin-left:60%;
+}
+#about{
+    width:100%;
+    margin-left: 5%;
+}
+    #contact{
+        
+      margin-left: 20%;
+       
+    }
+    .jcbcertificate{
+        margin-top: 30px;
+        margin-left: -2 rem;
+    }
+    #aboutuss{
+        width: 45%
+       }
+       #contact{
+        width: 40%;
+        margin-left:70px;
+       }
+    @media (max-width:400px){
+        #navbar{
+            display: none;
+        }
+        
+        .jcblogo{
+            margin-top: 10px;
+        }
+        .div3{
+            margin-top: -0.6rem;
+            height:80px;
+        }
+       #address{
+        margin-top:4px ;
+        margin-right: 120px;
+        margin-left: 8px;
+        font-size: 13px;
+      
+       }
+       #find_location{
+        display: none;
+     
+   
+        
+       }
+       
+       .logo{
+        margin-top: 10px;
+       }
+       #icon{
+        margin-left: -16rem;
+         margin-top: 38px;
+          height:25px;
+
+       }
+      
+      
+        .jcbcertificate{
+          margin-left:10%;
+
+        }
+        #about{
+            margin-left:20px;
+        }
+        #contact{
+            margin-left:-1px;
+            margin-top: 20px;
+        }
+        .lastjcblogo{
+            margin-top: 50px;
+            margin-left: -30px;
+        }
+        #aboutuss{
+            width:80%
+           }
+           #contact{
+            margin-top: 4rem;
+            width: 80%;
+          
+           }
+       }
+    
+    
